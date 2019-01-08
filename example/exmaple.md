@@ -21,11 +21,14 @@ def out(args):
 ## 출력 결과
 ---
 오늘의 운세  
+
 ![today](img/tdy.PNG)  
 ---
 내일의 운세  
+
 ![tomorrow](img/tm.PNG)  
 ---
 어느날의 운세  
+
 ![someday](img/smday.PNG)  
 ---
