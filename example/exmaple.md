@@ -22,7 +22,7 @@ def out(args):
 
 오늘의 운세  
 ---
-![today](img/tdy.PNG)  
+![today](./img/tdy.PNG)  
 내일의 운세  
 ---  
 ![tomorrow](img/tm.PNG)  
