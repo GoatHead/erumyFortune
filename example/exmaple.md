@@ -18,17 +18,14 @@ def out(args):
 # src/discord_fortuneTell.py
 ```
 [Discord.py](https://github.com/Rapptz/discord.py) 기반의 디스코드 개인 봇에 운세 알림 기능을 추가한 예제입니다.
-## 출력 결과
----
+## 출력 결과  
+
 오늘의 운세  
-  
+---
 ![today](img/tdy.PNG)  
----
 내일의 운세  
-  
+---  
 ![tomorrow](img/tm.PNG)  
----
 어느날의 운세  
-  
+---  
 ![someday](img/smday.PNG)  
----
