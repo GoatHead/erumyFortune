@@ -1,13 +1,13 @@
-# »ç¿ë ¿¹: Discord Bot
+# ì‚¬ìš© ì˜ˆ: Discord Bot
 ```python
 ...
 import discord_fortuneTell
 ...
-@bot.command(aliases=['¿î¼¼'])
+@bot.command(aliases=['ìš´ì„¸'])
 async def today_fortune(ctx, *args):
     args = list(args)
     await ctx.send(discord_fortuneTell.out(args))
-# my_bot¿¡ ÀÛ¼ºµÈ ÄÚµå
+# my_botì— ì‘ì„±ëœ ì½”ë“œ
 ```
 ```python
 import erumyFortune
@@ -17,15 +17,15 @@ def out(args):
     return res_str
 # src/discord_fortuneTell.py
 ```
-[Discord.py](https://github.com/Rapptz/discord.py) ±â¹İÀÇ µğ½ºÄÚµå °³ÀÎ º¿¿¡ ¿î¼¼ ¾Ë¸² ±â´ÉÀ» Ãß°¡ÇÑ ¿¹Á¦ÀÔ´Ï´Ù.
-## Ãâ·Â °á°ú
+[Discord.py](https://github.com/Rapptz/discord.py) ê¸°ë°˜ì˜ ë””ìŠ¤ì½”ë“œ ê°œì¸ ë´‡ì— ìš´ì„¸ ì•Œë¦¼ ê¸°ëŠ¥ì„ ì¶”ê°€í•œ ì˜ˆì œì…ë‹ˆë‹¤.
+## ì¶œë ¥ ê²°ê³¼
 ---
-¿À´ÃÀÇ ¿î¼¼  
-![](./img/tdy.png)  
+ì˜¤ëŠ˜ì˜ ìš´ì„¸  
+![](img/tdy.png)  
 ----
-³»ÀÏÀÇ ¿î¼¼  
-![](./img/tm.png)  
+ë‚´ì¼ì˜ ìš´ì„¸  
+![](img/tm.png)  
 ---
-¾î´À³¯ÀÇ ¿î¼¼
-![](./img/smday.png)  
+ì–´ëŠë‚ ì˜ ìš´ì„¸
+![](img/smday.png)  
 ---
